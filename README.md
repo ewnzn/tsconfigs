@@ -1,0 +1,1 @@
+# My personal Typescript configurations ⚙️👷

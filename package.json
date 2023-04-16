@@ -1,0 +1,25 @@
+{
+  "name": "@ewnzn/tsconfigs",
+  "description": "My personal Typescript configurations ⚙️👷",
+  "version": "1.0.0",
+  "author": "ewnzn",
+  "license": "MIT",
+  "main": "./configs/tsconfig.base.json",
+  "exports": {
+    ".": {
+			"import": "./configs/tsconfig.base.json",
+			"require": "./configs/tsconfig.base.json"
+		}
+  },
+    "files": [
+		"./configs/*.json"
+	],
+    "homepage": "https://github.com/ewnzn/tsconfigs",
+    "repository": {
+		"type": "git",
+		"url": "git+https://github.com/ewnzn/tsconfigs.git"
+	},
+    "bugs": {
+		"url": "https://github.com/ewnzn/tsconfigs/issues"
+	}
+}
